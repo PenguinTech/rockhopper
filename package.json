@@ -1,0 +1,23 @@
+{
+  "name": "rockhopper",
+  "version": "1.0.0",
+  "description": "[![Stories in Ready](https://badge.waffle.io/PenguinTech/rockhopper.png?label=ready&title=Ready)](https://waffle.io/PenguinTech/rockhopper) # rockhopper Social Media management tool",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PenguinTech/rockhopper.git"
+  },
+  "keywords": [],
+  "author": "Rob Cabardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PenguinTech/rockhopper/issues"
+  },
+  "homepage": "https://github.com/PenguinTech/rockhopper#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
