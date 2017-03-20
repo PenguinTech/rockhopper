@@ -1,4 +1,24 @@
+os:
+- linux
+- osx
+
 language: node_js
+
 node_js:
   - "iojs"
   - "6"
+
+branches:
+  only:
+    - master
+
+script: ./script/travis-build.sh
+
+cache:
+  directories:
+    - node_modules
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
