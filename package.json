@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "test:e2e": "./node_modules/mocha/bin/mocha tests/main.test.js"
+    "test": "./node_modules/mocha/bin/mocha tests/main.test.js"
   },
   "repository": {
     "type": "git",
